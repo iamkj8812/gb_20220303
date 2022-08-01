@@ -1,0 +1,209 @@
+국비
+
+Zoom 회의 참가
+https://us06web.zoom.us/j/6633076301?pwd=dWNHUy9icnFhMjFqVFFjNEl0TUVjUT09
+
+회의 ID: 663 307 6301
+암호: 0900k
+--------------------------------------
+[일정]
+ 오전    : 키워드 정리(전범위)
+ 중간체크 : 오후 1시~
+ 수료식    : 오후 2시 30분 ~ 4시 퇴실 QR
+--------------------------------------
+[월 대면-8월 1일(마지막 수료식)]
+ 김시우, 박소림, 김서정, 김태경
+ 박종휘, 허정호, 이상훈, 나종서
+ 김찬우, 유원철, 김시훈, 김민수
+ 조현하
+---------------------------------------------------------------------------------------
+임베디드 애플리케이션 구현 환경 구축(17차)
+임베디드 애플리케이션 구현(18차)
+디바이스 드라이버 구현(19차)
+----------------------------------------------------------------------------
+- 성적우수(능단, 1~2)
+ 김찬우(99.5), 최영락(99.3), 조현하(99.2)
+- 공로상(조장님들, 5)
+ 유세영, 김시우, 박지윤, 정유섭, 최영락
+- 모범상(개근, 2~3)
+ 박소림, 김서정
+----------------------------------------------------------------------------
+**java
+ - 운영체제에 독립적이다(JVM)
+ - 객체지향 언어 : 상속, 다형성
+ - 자료형(data type) - 8
+ - 연산자
+ - 형변환(casting) : 암묵적, 명시적
+ - 조건문 : if~else, switch
+ - 반복문 : for, while, do~while
+ - 무한루프
+ - 변수의 범위(=변수의 스코프)
+ - 배열 : 1차, 2차
+ - 메서드 : void, main(), return, 파라미터(매개변수)
+ - 클래스(class) : 객체(object), new 클래스이름(), this, getter, setter
+ - 생성자
+ - 은닉성 : 변수, 메서드 	-> public, private, protected, default
+         : 클래스 	-> pulbic, default
+ - 클래스, 객체, 인스턴스(day09)
+ - 상속성
+ - 오버라이드 : super, @Override
+ - 오버로드 : this()
+ - 객체 형변환
+ - 객체 배열 : instanceof
+ - 추상화 : abstract
+ - 인터페이스 : interface, implements, 다중 상속
+ - static(day13)
+ - 디자인패턴 : singleTon
+ - 패키지
+ - wrapper class
+ - Math
+ - String
+ - Calendar
+ - 정규표현식
+ - 예외처리 : Exception, 컴파일 에러, 런타임 에러, try catch
+ - Collection Framework : HashMap, ArrayList
+ - 파일 입출력 : stream
+
+**DBMS
+ - 테이블, 행, 열
+ - SQL
+ - DDL, DML, DCL
+ - SELECT : AS, DISTINCT, <=, OR, NOT(<>, !=), BETWEEN A AND B, IN, LIKE,
+	   IS NULL, IS NOT NULL, ORDER BY ASC, DESC, COUNT, AVG, MAX, MIN, 
+  	   ABS, ROUND(), DUAL, 
+ - JOIN : INNER, LEFT OUTER JOIN(ANSI JOIN)
+ - SUBQUERY
+ - Oracle Data Type
+ - create, drop, alter, truncate
+ - insert, update, delete
+ - commit, rollback, transaction
+ - 무결성 제약조건
+ - 외래키 옵션
+ - view
+ - Sequence
+ - index
+
+**Javascript
+ - 바닐라 스크립트
+ - var
+ - 연산자
+ - 조건식
+ - document.write(출력내용);
+ - 반복문
+ - function() 함수
+ - 화살표 함수
+ - 배열
+ - 내장함수 : alert, confirm, prompt, Number, parseInt, isNaN
+ - window : DOM, BOM, Javascript
+ - 크로스 브라우징
+ - 개발자 도구
+ - jQuery(lib)
+ 
+** jsp
+ - CS 모델
+ - Socket 통신
+ - Web
+ - HTTP 통신
+ - 프로토콜의 정리
+ - 정적 페이지, 동적 페이지
+ - 웹 호스팅
+ - 도메인
+ - web-was
+ - 서블릿(servlet)
+ - port 충돌
+ - HTTP 
+ - get, post
+ - servlet filter
+ - application, session, cookie
+ - JSP(java Server Pages)
+ - 스크립트 태그
+ - JSP 내장객체 : request, response, out, session
+ - 액션태그 - 행위에 대한 태그
+ - 페이지 이동 : forward, redirect
+ - attribute scope : page < request < session < application
+ - MVC - MVC1, MVC2
+ - DTO, VO
+ - Controller, Service
+ - DAO
+ - ojdbc
+ - 자바빈즈 태그
+ - Ajax - 비동기적 통신
+ - json - key:value
+ - DBCP
+ - JNDI
+ - Mybatis : *.xml
+ - EL
+ - JSTL
+ - MVC2 : 프론트 컨트롤러
+
+**spring
+ - 프레임워크
+ - spring boot
+ - STS
+ - DispatcherServlet
+ - IoC
+ - 스프링 컨테이너(싱글톤)
+ - @Autowired
+ - POJO
+ - DI : 의존성 주입
+ - SOLID : SRP, OCP, LSP, ISP, DIP
+ - HTTP 요청 파라미터
+ - 정적 리소스 : static / 동적 리소스 : templates
+ - Model, ModelAndView
+ - thymeleaf
+ - 기본객체 : ${#request}, ${#response}, ${#session}, ${#servletContext}
+ - th:..
+ - @PostConstruct, @PreDestroy
+ - ORM
+ - JPA
+ - 방언
+ - JPQL
+ - 영속성 컨텍스트
+ - 플러시, 클리어
+ - @Entity, @Table, @Column, @Id, @ManyToOne
+ - @GeneratedValue
+ - 데이터베이스 스키마 자동 생성 옵션
+ - 연관관계 매핑(FK) : 단방향, 양방향
+ - 연관관계 주인
+ - 임베디드 타입 : @Embeddable, @Embedded
+ - jpql : 객체
+ - TypeQuery, Query
+ - query.getResultList()
+ - query.getSingleResult()
+ - 페이지 API
+ - 조인
+ - 서브쿼리
+
+~2시 20분
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
